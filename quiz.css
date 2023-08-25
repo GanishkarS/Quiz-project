@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(211, 183, 183);
+}
+#question{
+    color: rgb(71, 71, 216);
+}
+.app{
+    background-color: white;
+    width: 90%;
+    max-width: 600px;
+    margin: 100px auto 0;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 2px 3px 5px;
+}
+.app h1{
+    font-size: 25px;
+    color: black;
+    font-weight: 600;
+    padding-bottom: 30px;
+    border-bottom: 1px solid;
+}
+.quiz{
+    padding: 20px 0;
+}
+.quiz h2{
+    font-size: 20px;
+    color: black;
+    
+}
+.btn{
+    background-color: white;
+    color: black;
+    width: 100%;
+    border: 1px solid;
+    padding: 10px;
+    margin: 10px auto 0;
+    text-align: left;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btn:hover:not([disabled]){
+    background-color: black;
+    color: white;
+}
+.btn:disabled{
+    cursor: no-drop;
+}
+
+#nextButton{
+    background-color: red;
+    color: lightgrey;
+    width: 100px;
+    border: 0;
+    border-radius: 4px;
+    padding: 10px;
+    margin: 20px auto 0;
+    cursor: pointer;
+    display: none;
+}
+.progress-container {
+    height: 20px;
+    background-color: #ddd;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+.progress-bar {
+    height: 100%;
+    width: 0;
+    background-color: #337ab7;
+    border-radius: 4px;
+  }
+.correct{
+    background-color: green;
+}
+.incorrect{
+    background-color: red;
+}
